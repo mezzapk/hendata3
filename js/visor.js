@@ -120,17 +120,17 @@ var lim_put = L.geoJSON(lim_put2,{
     },
 });
 
-var lim_alter = L.geoJSON(lim_alter2,{
-    style: function(feature){
-        return {
-            weight: 1.3,
-            color: 'red',
-            //opacity: .75,
-            fillColor: '#00000000',
-            fillOpacity: 1.5
-        };
-    },
-});
+// var lim_alter = L.geoJSON(lim_alter2,{
+//     style: function(feature){
+//         return {
+//             weight: 1.3,
+//             color: 'red',
+//             //opacity: .75,
+//             fillColor: '#00000000',
+//             fillOpacity: 1.5
+//         };
+//     },
+// });
 
 var agricultura = L.geoJSON(agricultura2,{
     style: function(feature){
