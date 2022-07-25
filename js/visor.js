@@ -130,7 +130,7 @@ var lim_put = L.geoJSON(lim_put2,{
 //             fillOpacity: 1.5
 //         };
 //     },
-// });
+// }); ok
 
 var agricultura = L.geoJSON(agricultura2,{
     style: function(feature){
